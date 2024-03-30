@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #hover{
+                border: 1px blueviolet;
+                height: 99px;
+                width: 100px;
+            }
+            #hover:hover{
+                border: 1px solid red;
+                color: blue;
+            }
+            #text:valid{
+                background-color: rgb(122, 241, 122);
+            }
+            #text:invalid{
+                background-color: rgb(245, 82, 82);
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <h3 style="text-align:center; color: blueviolet;">Fieldset and Legend tag:</h3>
+            <fieldset>
+                <legend>Sign in</legend>
+                <label>Email:</label><br/>
+                <input placeholder="enter email id"/><br/>
+                <label>Password:</label><br/>
+                <input placeholder="enter password"/>
+            </fieldset>
+        </form>
+
+        <form>
+            <h3 style="color: blueviolet;">Value atttribute : </h3>
+            <input type="button" value="Submit"/>
+            <input type="text" value="user123"/><br/><br/>
+            <input type="radio" value="Honda"/> 
+            <label> value is Honda</label><br/>
+            <input type="radio" value="BMW"/>
+            <label> value is BMW</label><br/>
+            <input type="range" min="5" max="10"/><br/><br/>
+            <lable style="color: blueviolet;"> Readonly:</lable>
+            <input type="text" readonly value="readonly"/>
+            <lable style="color: blueviolet;">Disabled:</lable>
+            <input type="text" disabled value="disabled"/><br/><br/>
+            <lable style="color: blueviolet;">Size atttribute:</lable><br/><br/>
+            <lable>Default value:</lable>
+            <input type="text" value="default value"/><br/>
+            <lable>set size</lable>:</lable>
+            <input type="text"  size="19" value=" size is 19"/>
+        </form>
+        <form>
+            <h3 style="color: blueviolet;">minlength and maxlength </h3>
+            <label>maxlength:</label>
+            <input maxlength="4" value=" max length is 4"/><br/>
+            <input type="number" min="10" max="99"/>
+            <label>:min 10 and max 99</label>
+        </form><br/><br/>
+        <div id="hover" >Testing hover  </div>
+        <form onsubmit ="">
+            <h4 style="color: blueviolet;">testing pattern:</h4>            
+            <input id="text" type="text" pattern="\w{3,10}" required/><br/>
+            <input id="text" type="phone no " pattern="\w{10,10}" required/><br/>
+            <input disabled type="submit"/>
+        </form>
+
+        <label style="color: blueviolet;"> Testing Autofocus:</label><br/>
+        <input/>
+        <input autofocus/>
+        <input/><br/><br/>
+        
+        <form novalidate>
+            <label style="color: blueviolet;">Title and novalidate attribute:</label><br/>
+            <label>Email</label><br/>
+            <input required/><br/>
+            <label>Password</label><br/>
+            <input /><br/>
+            <input type="submit"/>
+        </form><br/><br/>
+<h4 style="color: blueviolet;">testing canvas:</h4>
+        <canvas id="mycanvas" width="200" height="100" style="border: 1px solid blue;">
+        </canvas><br/>
+        <h4 style="color: blueviolet;">testing svg:</h4>
+
+        <svg width="1oo" hieght="100">
+            <circle
+            cx="50"
+            cy="40"
+            r="30"
+            stroke="green"
+            strokewidth="4"
+            fill="yellow"/>
+
+        </svg>
+    </body>
+
+</html>
