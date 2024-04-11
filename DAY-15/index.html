@@ -1,31 +1,144 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> DAY-5</title>
+        <title>DAY-15</title>
         <style>
-            table,th,td{
-                border: 1px solid blue;
-                border-collapse:collapse;
-                color: brown;
-                        }
-                        th{
-                            color: green;
-                            font-size: 26px;
-                        }
-                        .kuchbhi {
-                           color: red;
-                           border: 1px solid black;
-                        }
+        .firstdiv{
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
 
-                         #myId {
-                            color: blue;
-                        }
-        </style>
+
+           }
+        .chiddiv{
+            width: 18%;
+            border: 1px solid red;
+            font-size: 40px;
+            text-align: center;
+            height: 300px;
+            margin-bottom: 50px;
+
+        }
+    </style>
+
     </head>
+
     <body>
-    <table>
-        <thead>
-            <tr>
-            <th> Sr.no </th>
-            <th> Name </th>
-            <th> City </th>
+       <h1>Flex wrap:</h1> 
+       <div class="firstdiv">
+       <div class="chiddiv">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+        </div>
+        
+        <div class="chiddiv">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+            </div>
+
+
+            <div class="chiddiv">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                </div>
+
+                <div class="chiddiv">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                    </div>
+
+                    <div class="chiddiv">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                        </div>
+      
+                        <div class="chiddiv">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                            </div>
+                
+                
+                            <div class="chiddiv">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                                </div>
+                
+                                <div class="chiddiv">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                                    </div>
+                
+                                    <div class="chiddiv">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                                        </div>
+                                        <div class="chiddiv">
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                                            </div>
+                            
+                                            <div class="chiddiv">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                                                </div>
+                            
+                                                <div class="chiddiv">
+                                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAaeit3uBHCcbOoioMyTn0QiccE_Lg5BvZF01t0XbHQ&s" height="250px" width="260px"/>
+                                                    </div>                           
+    </div>
+    <br/>
+<h1> Testing position</h1>
+<h3> Relative</h3>
+<div style="width: 100% ; 
+border: 2px solid black; 
+display: flex;
+">
+
+    <div style="width: 33%; height: 300px; border: 2px solid red; background-color: brown;" > orignal space NOT allot to next element</div>
+    <div style="width: 33%; 
+    height: 300px;
+    border: 2px solid red; 
+    background-color: rgb(0, 255, 179); 
+    font-size: 30px; 
+    position: relative;
+    top: 80px; left: 80px;"> Position Relative </div>
+    <div style="width: 33%; height: 300px; border: 2px solid red; background-color: brown;"> top, left, right,buttom will get apply from viewport screen</div>
+</div>
+
+<h3> Absolute:</h3>
+<p> orignal space ALLOT to next element</p><br/>
+<p>top, left, right,buttom will get apply from original position of element</p>
+<br/><br/>
+<div style="width: 100% ; 
+border: 2px solid black; 
+display: flex;
+">
+
+    <div style="width: 33%; height: 300px; border: 2px solid red; background-color: brown;" ></div>
+    <div style="width: 33%; 
+    height: 300px;
+    border: 2px solid red; 
+    background-color: rgb(0, 255, 179); 
+    font-size: 30px; 
+    position: absolute;
+    top: 80px; left: 80px;
+  "> Position absolute</div>
+    <div style="width: 33%; height: 300px; border: 2px solid red; background-color: brown;"> top, left, right,buttom will get apply from original position of elemen</div>
+</div>
+
+
+<h3> POSITION STICKY:</h3>
+<p> orignal space ALLOT to next element</p><br/>
+<p>top, left, right,buttom will get apply from original position of element</p>
+<br/><br/>
+<div style="width: 100% ; 
+border: 2px solid black; 
+display: flex;
+height: 30000px;
+">
+
+    <div style="width: 33%; height: 300px; border: 2px solid red; background-color: brown;" ></div>
+    <div style="width: 33%; 
+    height: 300px;
+    border: 2px solid red; 
+    background-color: rgb(0, 255, 179); 
+    font-size: 30px; 
+    position: sticky;
+    top: 0px;
+    left: 0px;
+  "> Position sticky</div>
+    <div style="width: 33%; height: 300px; border: 2px solid red; background-color: brown;"> </div>
+</div>
+</body>
+</html>
