@@ -1,0 +1,189 @@
+<!-- shift + 1 , to get started code  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/d4fa596027.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tata Neu</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        font-size: 14px;
+      }
+      .textOrangeColor {
+        color: #f58035;
+      }
+      .textPurpleColor {
+        color: #9f35ed;
+      }
+      #fullpage {
+        margin: auto;
+        width: 90%;
+        border: 2px solid black;
+      }
+      #navbar {
+        /* border: 2px solid red; */
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+      }
+      #leftNav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 22%;
+        /* border: 2px solid blue; */
+      }
+
+      #rightNav {
+        width: 70%;
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #firstRightNav {
+        padding-left: 20px;
+        width: 56%;
+        height: 40px;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        background-color: #f4f4f4;
+        border-radius: 10px;
+      }
+
+      #firstRightNav input {
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        background-color: #f4f4f4;
+      }
+
+      #firstRightNav i {
+        color: gray;
+      }
+
+      #secondRightNav {
+        width: 15%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+      }
+
+      /* when use > css will aplly only to childrens if not then then all elements  */
+      #secondRightNav > div {
+        width: 60%;
+        margin: auto;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        border-radius: 12px;
+        background-color: #eee6f5;
+        align-items: center;
+      }
+      #thirdRightNav {
+        width: 15%;
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #thirdRightNav div:nth-child(1) {
+        /* border: 1px solid black; */
+        width: 23%;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #f4e9fc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #thirdRightNav div:nth-child(2) {
+        /* border: 1px solid black; */
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #thirdRightNav div:nth-child(3) {
+        /* border: 1px solid black; */
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      #thirdRightNav p {
+        font-size: 12px;
+        font-weight: bolder;
+      }
+      #body {
+        height: 1500px;
+        border: 2px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="fullpage">
+      <div id="navbar">
+        <div id="leftNav">
+          <div style="height: 100%">
+            <img
+              style="width: 100%; height: 100%"
+              alt="icon"
+              src="https://media.licdn.com/dms/image/D4D12AQGLhmtNlfk7aA/article-inline_image-shrink_1500_2232/0/1697461642499?e=1717632000&v=beta&t=z4HDJCJ-njG9RNkklVq4TVrlbrVaYQ0VxqsIhyGXDUQ"
+            />
+          </div>
+          <a href="/login">Offers</a>
+          <a href="/login">Stories</a>
+          <a href="/login">NeuPass</a>
+        </div>
+        <div id="rightNav">
+          <div id="firstRightNav">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input placeholder="Search" />
+          </div>
+          <div id="secondRightNav">
+            <div>
+              <div>
+                <p>Neu</p>
+                <p class="textOrangeColor">Pass</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+          <div id="thirdRightNav">
+            <div>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <p>Mumbai</p>
+              <p class="textPurpleColor">400000</p>
+            </div>
+            <div>
+              <i class="fa-regular fa-user"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="body">Body</div>
+      <div>Footer</div>
+    </div>
+  </body>
+</html>
