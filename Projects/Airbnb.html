@@ -1,138 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Airbnb</title>
+  <head>
+    <script src="https://kit.fontawesome.com/a891a2988b.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <style>
-        * {
+      * {
+        font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+          Helvetica Neue, sans-serif;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: Arial, Helvetica, sans-serif;
-       
-      
       }
-      /* .parentdiv{
+      .d-none {
+        display: none;
+      }
+      #parentDiv {
         width: 90%;
         margin: auto;
-
-      } */
-      .firstnav{
         border: 2px solid black;
-        width: 90%;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-     
+        height: 3000px;
       }
-      .secondnav{
+      #navbar {
         width: 100%;
+        border: 2px solid red;
         height: 80px;
-        border: 2px solid black;
-        display: flex;
-        justify-content: space-around;
-        border-radius: 20px;
-      }
-      .where{
-        width: 18%;
-        border: 2px solid black;
-        margin-right: 60px;
+        position: sticky;
+        top: 0;
+        left: 0;
         background-color: white;
-        border-radius: 30px;
         display: flex;
-        justify-content: center;
-      height: 80px;
-      flex-direction: column;
-      align-items: center;
+        justify-content: space-between;
+      }
+      #logo {
+        width: 15%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+      }
+      #logo > img {
+        height: 45%;
+        width: 50%;
+      }
+      #navigations {
+        width: 25%;
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-between;
+       align-items: center;
+        font-size: 19px;
        
       }
-      #Search2{
-        width: 50%;
-        border: none;
-        outline: none;
-        height: 15px;
-        font-size: 20px;
-        margin-bottom: 20px;
-
+      #profile {
+        width: 25%;
+        border: 2px solid #d60a0a;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
       }
-      #tip1{
-        width: 50%;
-        border: none;
-        outline: none;
+      .profile1{
+        width: 40%;
+        font-size: larger;
+        font-weight: 9px;
+        display: flex;
+        border: 2px solid blue;
+      
+      }
+      .profile2{
+      width: 10%;
+      height: 30px;
+    
+      font-size: 20px;
+      /* border: rgb(216, 97, 97);
+        border-radius: 50px; */
+      }
+      .profile3{
+        width: 30%;
+        height: 65px;
+        border:  2px solid  rgb(77, 75, 83);
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        border-radius: 40%;
+        justify-content: space-around;
+      }
+
+      .Secondnav{
+        width: 70%;
+        height: 100px;
+        border: 2px solid blue;
+        border-radius: 40px;
+        margin:auto;
+        display: flex;
+        justify-content: space-between ;
+        align-items: center;
+      }
+      #ssearch{
+        width: 200px;
         height: 50px;
         font-size: 20px;
-
+        border: none;
+        outline: none;
+        
       }
-      .secondnav2{
-        width: 18%;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      
-      .secondnav3{
-        width: 18%;
-        border: 2px solid black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-      }
-
-      .secondnav4{
-        width: 18%;
-        border: 2px solid black;
-
-       }
-
-     .secondnav5{
-        width: 18%;
-        border: 2px solid black;
-
+      .lastserch{
+        width: 7%;
+        height:70px;
+        border: 2px solid red;
+        border-radius:35px ;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      background-color: #ff385c;
       }
 
 
+
+      /* 750, 950  */
+      @media screen and (max-width: 950px) {
+        #navigations {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 650px) {
+        #logo,
+        #profile {
+          display: none;
+        }
+        #search,
+        #filter {
+          display: block;
+          border: 2px solid black;
+        }
+        #search {
+          width: 88%;
+          display: flex;
+          align-items: center;
+        }
+        #filter {
+          width: 10%;
+        }
+      }
     </style>
-</head>
-<body>
-    <div class="parentdiv">
-    <div class="firstnav">
-       1
-    </div>
+  </head>
+  <body>
+    <div id="parentDiv">
+      <div id="navbar">
+        <div id="logo">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
+            alt="Logo"
+          />
+        </div>
+        <div id="navigations">
+          <h3>Stays</h3>
+          <p> Experiences</p>
+          <p> Online Experiences</p>
+          </div>
 
-    <div class="secondnav">
-        <div class="where" >
-            <div id="tip1"> where </div>
-            <input id="Search2" placeholder="Search destination"/>
+        <div id="profile">
+          <div class="profile1">Airbnb your home</div>
+          <div class="profile2">
+            
+            <i class="fa-solid fa-globe"></i>
+          </div>
+
+        <div class="profile3">
+         
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-regular fa-user"></i>
+         
+        </div>
+          
+          </div>
+        
+        
+        <div id="search">
+          <div style="border: 1px solid grey; padding: 10px; width: 100%; border-radius: 25px;">
+            <i></i>
+            <div>
+                <h5>Anywhere</h5>
+                <p>Any week</p>
+            </div>
+          </div>
+        </div>
+        <div id="filter">
+            <div>
+                <i></i>
+            </div>
+        </div>
+      </div>
+
+
+      <div class="Secondnav" >
+      
+        <div>
+          <h4>Where</h4>
+          <input  id= "ssearch" placeholder="Search destination"/>
+        </div>
+        <div>
+          <h5>Check in</h5>
+          <p>Add dates</p>
+        </div>
+        <div>
+          <h5>Check out</h5>
+          <p>Add dates</p>
+        </div>
+        <div>
+          <h5>Who</h5>
+          <p>Add guests</p>
+        </div>
+        <div class="lastserch">
+          <i class="fa-solid fa-magnifying-glass"></i>
         </div>
 
-        <div class="secondnav2" >
-            <h4>Check in</h4>
-            <h3>Add dates</h3>
-            </div>
 
+    
+        
+        
+      </div>
 
-
-        <div class="secondnav3">
-            <h4>Check in</h4>
-            <h3>Add dates</h3>
-            </div>
-
-
-        <div class="secondnav4">2.4</div>
-        <div class="secondnav5">2.5</div>
-
+      <div>Filters</div>
+      <div>Sites</div>
     </div>
-
-
-
-    <div>3</div>
-    <div>4</div>
-</div>
-</body>
+  </body>
 </html>
