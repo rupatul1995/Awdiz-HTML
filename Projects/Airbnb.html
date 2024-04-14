@@ -45,7 +45,7 @@
       }
       #navigations {
         width: 25%;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         display: flex;
         justify-content: space-between;
        align-items: center;
@@ -54,7 +54,7 @@
       }
       #profile {
         width: 25%;
-        border: 2px solid #d60a0a;
+        /* border: 2px solid #d60a0a; */
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -64,7 +64,7 @@
         font-size: larger;
         font-weight: 9px;
         display: flex;
-        border: 2px solid blue;
+        /* border: 2px solid blue; */
       
       }
       .profile2{
@@ -78,16 +78,21 @@
       .profile3{
         width: 30%;
         height: 65px;
-        border:  2px solid  rgb(77, 75, 83);
+       
         font-size: 25px;
         display: flex;
         align-items: center;
         border-radius: 40%;
         justify-content: space-around;
       }
+      .maniprofile3{
+         border:  2px solid  rgb(77, 75, 83);
+         height: 65px;
+
+      }
 
       .Secondnav{
-        width: 70%;
+        width: 65%;
         height: 100px;
         border: 2px solid blue;
         border-radius: 40px;
@@ -95,6 +100,23 @@
         display: flex;
         justify-content: space-between ;
         align-items: center;
+        padding: 40px;
+      }
+      .secondnav1{
+        /* border-left: 2px solid #dddddd; */
+        padding-left: 20px;
+      }
+       .secondnav2{
+        border-left: 2px solid #dddddd;
+        padding-left: 20px;
+      }
+       .secondnav3{
+        /* border-left: 2px solid #dddddd; */
+        padding-left: 20px;
+      }
+       .secondnav4{
+        /* border-left: 2px solid #dddddd; */
+        padding-left: 20px;
       }
       #ssearch{
         width: 200px;
@@ -110,10 +132,11 @@
         border: 2px solid red;
         border-radius:35px ;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       align-items: center;
       color: white;
       background-color: #ff385c;
+      
       }
 
 
@@ -135,6 +158,7 @@
           border: 2px solid black;
         }
         #search {
+          display: none;
           width: 88%;
           display: flex;
           align-items: center;
@@ -166,17 +190,16 @@
             
             <i class="fa-solid fa-globe"></i>
           </div>
-
+          <div class="maniprofile3">
         <div class="profile3">
-         
             <i class="fa-solid fa-bars"></i>
             <i class="fa-regular fa-user"></i>
-         
+         </div>
         </div>
           
           </div>
         
-        
+<!--         
         <div id="search">
           <div style="border: 1px solid grey; padding: 10px; width: 100%; border-radius: 25px;">
             <i></i>
@@ -185,7 +208,7 @@
                 <p>Any week</p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div id="filter">
             <div>
                 <i></i>
@@ -196,22 +219,23 @@
 
       <div class="Secondnav" >
       
-        <div>
+        <div class="secondnav1">
           <h4>Where</h4>
           <input  id= "ssearch" placeholder="Search destination"/>
         </div>
-        <div>
+        <div class="secondnav2">
           <h5>Check in</h5>
           <p>Add dates</p>
         </div>
-        <div>
+        <div class="secondnav3">
           <h5>Check out</h5>
           <p>Add dates</p>
         </div>
-        <div>
+        <div class="secondnav4">
           <h5>Who</h5>
           <p>Add guests</p>
         </div>
+
         <div class="lastserch">
           <i class="fa-solid fa-magnifying-glass"></i>
         </div>
