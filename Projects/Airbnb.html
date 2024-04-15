@@ -60,16 +60,19 @@
         align-items: center;
       }
       .profile1{
-        width: 40%;
+        width: 50%;
         font-size: larger;
         font-weight: 9px;
         display: flex;
-        /* border: 2px solid blue; */
+        padding-left: 35px;
+        /* bord: 2pxppxx pxsolid blue; */
       
       }
       .profile2{
       width: 10%;
-      height: 30px;
+      height: 35px;
+      padding-top: 5px;
+      
     
       font-size: 20px;
       /* border: rgb(216, 97, 97);
@@ -157,11 +160,12 @@
         height: 120px;
         display:flex;
         justify-content: space-between;
+        align-items: center;
         
       }
       .place{
         border: 2px solid blue;
-        width: 60%;
+        width: 65%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -175,21 +179,64 @@
 
 
       .arow{
-        border: 2px solid blue;
-        width: 5%;
+        border: 2px solid rgb(157, 157, 161);
+        width:3%;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        padding-top: 3px;
 
       }
-      .filter{
-        border: 2px solid blue;
-        width: 10%;
+      .filter2{
+        border: 2px solid rgb(166, 166, 170);
+        width: 7%;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        justify-content: space-around;
+        font-size:17px ;
+
 
       }
       .displaytotal{
-        border: 2px solid blue;
+        border: 2px solid rgb(187, 187, 196);
         width: 20%;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 18px;
+        border-radius: 20px;
+        
         
       }
+      #displaytotal2{
+        font-size: 35px;
 
+     }
+     .Sites{
+      width: 100%;
+      border: 2px solid red;
+
+}
+
+     .imagediv{
+      width: 100%;
+      /* border: 2px solid black; */
+
+  
+     }
+     .imagediv1{
+      height: 300px;
+      width: 22%;
+      border: 2px solid green;
+     }
+
+
+    
 
 
       /* 750, 950  */
@@ -225,9 +272,9 @@
       <div id="navbar">
         <div id="logo">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
-            alt="Logo"
-          />
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
+          alt="Logo"
+        />
         </div>
         <div id="navigations">
           <h3>Stays</h3>
@@ -339,22 +386,57 @@
             <p> Top of the world</p>
           </div>
 
+        </div>
+        <div class="arow">
+          
+          <i class="fa-solid fa-chevron-right"></i>
+       
+        </div>
 
+        <div class="filter2">
+          <div><i class="fa-solid fa-bars"></i></div>
+          <div> <p>Filters</p></div>
         </div>
 
 
-        <div class="arow">aro</div>
-        <div class="filter">filter</div>
-        <div class="displaytotal">display total</div>
+        <div class="displaytotal">
+          <p>Display total before taxes</p>
+          <i  id="displaytotal2" class="fa-solid fa-toggle-off"></i>
+
+        </div>
+      </div>
+
+      <div class="Sites">
+        <div class="imagediv"></div>
+          <div  class="imagediv1">1 </div>
+          <div  class="imagediv1">2</div>
+          <div  class="imagediv1">3 </div>
+          <div  class="imagediv1" >4 </div>
+          <div  class="imagediv1">5 </div>
+          <div  class="imagediv1">6 </div>
+          <div  class="imagediv1">7 </div>
+          <div  class="imagediv1">8 </div>
+          <div  class="imagediv1">9</div>
+          <div  class="imagediv1">10</div>
+          <div  class="imagediv1">11</div>
+          <div  class="imagediv1">12</div>
+          <div  class="imagediv1">13 </div>
+          <div  class="imagediv1">14 </div>
+          <div  class="imagediv1">15 </div>
+        </div>
+        
+        </div>
+
+
+
+
+
 
       </div>
 
 
 
 
-
-
-      <div>Sites</div>
     </div>
   </body>
 </html>
