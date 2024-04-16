@@ -4,7 +4,7 @@
     <script src="https://kit.fontawesome.com/a891a2988b.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Airbnb Project</title>
     <style>
       * {
         font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
@@ -19,12 +19,12 @@
       #parentDiv {
         width: 90%;
         margin: auto;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         height: 5000px;
       }
       #navbar {
         width: 100%;
-        border: 2px solid rgb(209, 12, 12);
+        /* border: 2px solid rgb(209, 12, 12); */
         height: 80px;
         position: sticky;
         top: 0;
@@ -529,7 +529,8 @@
       }
       @media screen and (max-width: 950px) {
         #logo {
-        height: 90px;
+        height: 40px;
+
         margin: auto;
         }
       }
@@ -545,9 +546,12 @@
       }
         @media screen and (max-width: 950px){
           .Secondnav{
-            width: 65%;
+            /* width: 65%; */
+            display:none;
           }
         }
+        
+
 
     
 
@@ -556,7 +560,7 @@
       @media screen and (min-width : 900px) and (max-width : 1100px){
         .productimg{
           width: 32%;
-          display: none;
+          
           
         }
         
@@ -564,25 +568,20 @@
       @media screen and (min-width : 550px) and (max-width : 900px){
         .productimg{
           width: 48%;
-          display: none;
           
         }
         
       }
-      @media screen and (min-width : 550px) {
+      @media screen and (max-width : 550px) {
         .productimg{
           width: 90%;
           margin: auto;
-          display: none;
-          
+
+     
         }
         
       }
-      @media screen and (max-width : 950px) {
-      .filter2{
-        display: none;
-      }
-      }
+      
     </style>
   </head>
   <body>
