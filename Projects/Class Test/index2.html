@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://kit.fontawesome.com/a891a2988b.js" crossorigin="anonymous"></script>
    <style>
     *{ 
         font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
@@ -9,58 +10,148 @@
         padding: 0;
         box-sizing: border-box;
     }
-    .fullpage{
+    #maindiv{
+        width: 100%;
+        /* height: 3590px; */
+    }
+    #nicelogopage{
+        width: 100%;
+        border: 2px solid black;
+        height: 95px;
+        background-color:#f2f2f2 ;
+            position: sticky;
+            top: 0;
+            left: 0;
+           display: flex;
+    
+    }
+    .nicelogo{
+        width: 40%;
+        /* border: 2px solid rgb(17, 0, 255); */
+        font-size: 70px;
+        margin-left: 15px;
+        font-weight: 900px;
+
+        
 
     }
-    .nicepage{
-        border: 2px solid black;
-        width: 100%;
-        height: 100px;
-        display: flex;
-
-     }
-     .nice2{
-        width: 30%;
+    .logopc{
+        width: 20%;
         border: 2px solid red;
-        display: flex;
         
-       
 
 
-     }
-     .pcphoto{
-        width: 70%;
-        border: 2px solid rgb(195, 0, 255);
+    }
+    .logopc2{
+        height: 45px;
+        font-weight: bolder;
+        margin-top: 20px;
+    }
+    #logomain{
+        width: 76%;
+            height: 70px;
+            border: 2px solid black;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    }
+    .logofirst{
+        width: 80%;
+            display: flex;
+        /* border: 2px solid red; */
+        justify-content: space-between;
+        
+        height: 50px;
+        /* margin-left: 7%; */
+        /* text-align: center; */
 
-     }
+    }
+    .logosecond{
+        width: 15%;
+        border: 2px solid purple;
+        height: 60px;
+       font-size: 35px;
+       display: flex;
+       justify-content: space-between;
+    }
+    #body{
+
+    }
+    .bodyfirstimg{
+        background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg");
+            height:850px;
+            width: 100%;
+            background-size: cover;
+    }
+    .body1box{
+        position: relative;
+            top: 200px;
+            left: 750px;
+            height: 450px;
+            width: 585px;
+            background-color: rgb(180,189,155);
+    }
+    .body2box{
+        position: absolute;
+            top: 380px;
+            left: 630px;
+            height: 350px;
+            width: 650px;
+            background-color: white;
+            
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    
    </style>
     <title>interior design</title>
 </head>
 <body>
-    <div class="fullpage">
+    <div id="maindiv">
+    <div id="nicelogopage">
+        <div  class="nicelogo">
+            <img src="https://csite.nicepage.com/Images/logo-w.png" height="52px" width="120px" />
+        </div>
+        <div class="logopc">
+            <img src="https://csite.nicepage.com/Images/Site/responsive-desktop.png" alt="desktop" class="logopc2" />
+            <img src="https://csite.nicepage.com/Images/Site/responsive-laptop.png" alt="laptop"   class="logopc2"/>
+            <img src="https://csite.nicepage.com/Images/Site/responsive-tablet.png" alt="laptop"  class="logopc2" />
+            <img src="https://csite.nicepage.com/Images/Site/responsive-phone-horizontal.png" alt="mobile1"   class="logopc2" />
+            <img src="https://csite.nicepage.com/Images/Site/responsive-phone.png" alt="mobile2"  class="logopc2" />
+        </div>
+        </div>
+       </div>
 
-        <div class="nicepage">
-            <div class="nice2">
-        <P class>
-            <img src="https://csite.nicepage.com/Images/logo-w.png"/>
-        </P>
+
+
+    <div id="logomain">
+        <div class="logofirst">
+            <img src="https://assets.nicepagecdn.com/d2cc3eaa/16689/images/d03cc6e5-2eb6-4776-9a93-7e74e581851e_150.png" alt="logo" >
+
+        </div>
+        <div class="logosecond">
+            <i class="fa-solid fa-bars" ></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram" ></i>
+            
+        </div>
+        
     </div>
-        <div class="pcphoto"> 
-            <img src="https://csite.nicepage.com/Images/Site/responsive-desktop.png"/>
-            <img src="https://csite.nicepage.com/Images/Site/responsive-laptop.png"/>
-            <img src="https://csite.nicepage.com/Images/Site/responsive-tablet.png"/>
-            <img src="https://csite.nicepage.com/Images/Site/responsive-phone-horizontal.png"/>
-            <img src="https://csite.nicepage.com/Images/Site/responsive-phone.png"/>
-            </div>
+    <div id="body">
+        <div class="bodyfirstimg">
+        </div >
+
+        <div class="body1box"></div>
+        <div class="body2box"></div>
     </div>
+</div>
+    
 
 
 
 
 
-        <div>logo</div>
-        <div>studio</div>
-    </div>
     
     
 </body>

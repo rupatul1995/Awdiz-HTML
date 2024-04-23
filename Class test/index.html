@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nicepage test</title>
+    
+    <script src="https://kit.fontawesome.com/38e700c3a6.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #fullpage{
+            
+            height: 3000px;
+           
+        }
+        #nav1Parent{
+            background-color:rgb(242,242,242) ;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+        #nav1{
+            /* border: 2px solid black; */
+            width: 98%;
+            height: 70px;
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(242,242,242);
+            align-items: center;
+            margin: auto;
+            /* padding-left: 20px; */
+        }
+        #iconspc{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 14%;
+            margin-left: 200px;
+           height: 190px;
+           
+        }
+        #nav2{
+            /* border: 2px solid black; */
+            width: 76%;
+            height: 70px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #nav3{
+            /* border: 1px solid; */
+            width: 13%;
+            display: flex;
+            justify-content: space-between;
+        }
+        #face{
+            /* border: 1px solid; */
+            border-radius: 50%;
+            height: 27px;
+            width: 27px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            background-color: rgb(59,89,152);
+            color: white;
+            font-size:x-large;
+            font-weight: bold;
+        
+        }
+        #twit{
+            /* border: 1px solid; */
+            border-radius: 50%;
+            height: 27px;
+            width: 27px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            background-color: rgb(85,172,238);
+        }
+        #insta{
+            /* border: 1px solid; */
+            border-radius: 50%;
+            height: 27px;
+            width: 27px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            background-color: rgb(197,54,164);
+        }
+        #backgroundimg1{
+            background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/16689/images/stylish-scandinavian-living-room-with-design-mint-sofa-furnitures-mock-up-poster-map-plants-eleg444.jpg");
+            height:850px;
+            width: 100%;
+            background-size: cover;
+        }
+        #box1{
+            position: relative;
+            top: 200px;
+            left: 750px;
+            height: 500px;
+            width: 685px;
+            background-color: rgb(180,189,155);
+        }
+        #box3{
+            position: absolute;
+            top: 380px;
+            left: 630px;
+            height: 400px;
+            width: 750px;
+            background-color: white;
+            
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #box3 div:nth-child(1){
+            font-size: 35px;
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        #box3 div:nth-child(2){
+            font-size: 80px;
+            font-weight: 10px;
+            margin-left: 30px;
+        }
+        #box3 div:nth-child(3){
+            font-size: 28px;
+            margin-left: 30px;
+
+        }
+    </style>
+</head>
+<body>
+<div id="fullpage">
+    <div id="nav1Parent">
+        <div id="nav1">
+            <div id="logo">
+                <img src="https://csite.nicepage.com/Images/logo-w.png" height="50px" width="150px" />
+            </div>
+            <div id="iconspc">
+                <div>
+                    <img src="https://csite.nicepage.com/Images/Site/responsive-desktop.png" alt="desktop" />
+                </div>
+                <div>
+                    <img src="https://csite.nicepage.com/Images/Site/responsive-laptop.png" alt="laptop" />
+                </div>
+                <div>
+                    <img src="https://csite.nicepage.com/Images/Site/responsive-tablet.png" alt="laptop" />
+                </div>
+                <div>
+                    <img src="https://csite.nicepage.com/Images/Site/responsive-phone-horizontal.png" alt="mobile1" />
+                </div>
+                <div>
+                    <img src="https://csite.nicepage.com/Images/Site/responsive-phone.png" alt="mobile2" />
+                </div>
+            </div>
+            <div id="close">
+                <i class="fa-solid fa-xmark fa-2x" style="color: rgb(129,129,129);"></i>
+            </div>
+       </div>
+    </div>
+   
+   <div id="nav2">
+        <div id="logo2">
+            <img src="https://assets.nicepagecdn.com/d2cc3eaa/16689/images/d03cc6e5-2eb6-4776-9a93-7e74e581851e_150.png" height="80%" width="80%" alt="logo" />
+        </div>
+        <div id="nav3">
+            <i class="fa-solid fa-bars fa-2x"></i>
+            <!-- <i class="fa-brands fa-facebook fa-2x"></i> -->
+            <div id="face">f</div>
+            <div id="twit"><i class="fa-brands fa-twitter " style="color: rgb(255,255,255);"></i></div>
+            <div id="insta"><i class="fa-brands fa-instagram " style="color: rgb(251,239,248);"></i></div>
+            
+        </div>
+   </div>
+   <div id="body">
+        <div id="backgroundimg1">
+            <div id="box1"></div>
+            <div id="box3">
+                <div> 
+                    <p>INTERIOR STUDIO</p>
+                </div>
+                <div> <p>Home is not a place it's a feeling</p>
+                </div>
+                <div>
+                    <p>Image from </p>
+                </div>
+            </div>
+        </div>
+
+   </div>
+  
+</div>
+</body>
+</html>
