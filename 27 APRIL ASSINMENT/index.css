@@ -1,0 +1,73 @@
+*
+{
+ padding: 0;
+     margin: 0;
+     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+   Helvetica Neue, sans-serif;
+   box-sizing: border-box;
+}
+#mainpage{
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    height: 330px;
+
+}
+.firstpage{
+    /* border: 2px solid black; */
+    width: 40%;
+    
+ 
+    
+
+}
+
+.textpage{
+    /* border: 2px solid rgb(170, 48, 48); */
+    width: 20%;
+    background-color: #fcc133;
+    height: 330px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 13px;
+    /* line-height: 51px; */
+    /* flex-direction: column; */
+  
+    
+
+
+}
+
+.firstpage{
+    /* border: 2px solid rgb(19, 201, 125); */
+    width: 40%;
+    
+
+}
+.secondpage{
+width: 100%;
+background-color: #292930;
+height: 250px;
+
+}
+.startpage1{
+    width: 40px;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    #mainpage{
+        width: 70%;
+    }
+    .firstpage{
+        width: 100%;
+    }
+
+}
+
+
+
