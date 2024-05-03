@@ -50,12 +50,27 @@
 width: 100%;
 background-color: #292930;
 height: 250px;
+display: flex;
+
 
 }
 .startpage1{
-    width: 40px;
+    width:40%;
+    border: 2px solid white;
+    color: white;
+    margin-top: 140px;
+    margin-left: 60px;
+    font-size: 15px;
+    
 }
-
+.starpage2{
+    width: 20%;
+    border: 2px solid white;
+}
+.third{
+    width: 40%;
+    border: 2px solid white;
+}
 
 
 
