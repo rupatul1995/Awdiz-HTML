@@ -24,7 +24,7 @@
 
 .textpage{
     /* border: 2px solid rgb(170, 48, 48); */
-    width: 20%;
+    width: 18%;
     background-color: #fcc133;
     height: 330px;
     display: flex;
@@ -44,44 +44,134 @@
     /* border: 2px solid rgb(19, 201, 125); */
     width: 40%;
     
-
+}
+.firstpage1{
+    height: 330px;
 }
 .secondpage{
 width: 100%;
 background-color: #292930;
-height: 250px;
+height: 260px;
 display: flex;
 
 
 }
 .startpage1{
-    width:40%;
-    border: 2px solid white;
+    width:31%;
+    /* border: 2px solid white; */
     color: white;
-    margin-top: 140px;
+    margin-top: 160px;
     margin-left: 60px;
     font-size: 15px;
     
 }
 .starpage2{
-    width: 20%;
-    border: 2px solid white;
+    width: 18%;
+    /* border: 1px solid white; */
+    margin-top: 18px
+}
+.starpage3{
+    width: 100%;
+    height:190px ;
+    margin-top: 20px
+}
+#third1{
+    width: 40%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
 }
 .third{
-    width: 40%;
-    border: 2px solid white;
+    width: 72%;
+    /* border: 1px solid white; */
+    background-color: #fcc133;
+    font-size: 9px;
+    line-height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 260px;
+    font-weight: bold;
+
+}
+.bigimg1{
+ border: 2px solid rgb(14, 12, 12);
+ background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/8cc4cc79b3e85baf8723f998/pexelsphoto1639563.jpeg");
+ height: 400px;
+ background-size: cover;
+ display: flex;
+ flex-direction: column;
+ padding-left: 50px;
+ padding-top: 20px;
 }
 
+.firstdiv{
+    border: 3px solid  #fcc133 ;
+    height: 160px;
+    width: 28%;
+    color: white;
+    text-align: center;
+    
+}
+.firstdiv >h3 {
+    font-size: 13px;
+    line-height:40px;
+    
+}
+.firstdiv > p{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    line-height:50px;
+}
+.firstdiv > h6{
+    font-size: 8px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 12px;
+}
+.firstdiv1{
+    height: 170px;
+    width: 28%;
+    border: 2px solid white;
+    background-color: #fcc133;
+   text-align: center;
+   margin-top: 18px;
+}
+.firstdiv1 > h3{
+    font-size: 15px;
+    line-height:50px;
+}
+.firstdiv1 > h6{
+    font-size: 8px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 13px;
+}
+.firstdiv1 > p{
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    line-height:40px;
+}
 
+.fresh{
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    background-color: #292930;
+}
+.freshfood{
+width: 50%;
+color: white;
+font-size: 8px;
+line-height: 12px;
+font-weight: bold;
+}
+.freshfood > h1{
+    line-height: 40px;
+}
 
-@media screen and (max-width: 480px){
-    #mainpage{
-        width: 70%;
-    }
-    .firstpage{
-        width: 100%;
-    }
-
+.freshcafe{
+    width: 50%;
 }
 
 
