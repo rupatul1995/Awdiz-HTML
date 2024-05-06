@@ -147,6 +147,39 @@
     padding-top: 20px;
     font-size: 20px;
 }
+.fooddiv{
+    width: 100%;
+    border: 2px solid black;
+    height: 400px;
+    background-color: #292930;
+}
+.freshdiv1{
+    width: 58%;
+    height: 270px;
+    /* border: 2px solid white; */
+    color: white;
+    padding-top: 90px;
+    padding-left: 100px;
+}
+.freshdiv1 >h1 {
+    font-size: 33px;
+
+}
+.freshdiv1 > h6{
+    font-size: 17px;
+    padding-top: 30px;
+}
+.freshicon{
+    width: 25%;
+    height:180px;
+    /* border: 2px solid white; */
+    font-size: 30px;
+    padding-left: 50px;
+    color: #fcc133;
+    margin-left: 120px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 @media screen and (min-width: 850px) and (max-width: 1000px){
