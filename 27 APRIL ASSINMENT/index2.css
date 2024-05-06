@@ -1,0 +1,252 @@
+*
+{
+ padding: 0;
+     margin: 0;
+     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+   Helvetica Neue, sans-serif;
+   box-sizing: border-box;
+}
+#nicepage{
+    height: 40000px;
+}
+
+#mainpage{
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    /* height: 3000px; */
+
+}
+.imgpage{
+    width: 40%;
+    height: 650px;
+    /* border: 2px solid black; */
+
+}
+.firstpage{
+    width: 100%;
+    height: 650px;
+    /* border: 2px solid black; */
+    
+
+}
+.textpage{
+    /* border: 2px solid rgb(0, 255, 55); */
+    width: 20%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 75px;
+    font-size: 27px;
+    background-color: #fcc133;
+
+}
+.firstpage1{
+    /* border: 2px solid rgb(255, 94, 0); */
+    width: 40%;
+    height: 650px;
+}
+.firstpage2{
+    width: 100%;
+    height: 650px;
+
+}
+.healthpage{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    background-color: #292930;
+}
+.healthpage1{
+    width: 40%;
+    /* border: 2px solid blue; */
+    height: 500px;
+    color: white;
+    font-size: 30px;
+    padding-top: 300px;
+    padding-left: 150px;
+}
+.healthpage2{
+    width: 20%;
+    /* border: 2px solid blue; */
+}
+.starpage3{
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+
+}
+.healthpage3{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+
+    /* border : 2px solid blue; */
+   
+}
+.healthpage4{
+    width: 75%;
+    /* border: 2px solid white; */
+    height: 500px;
+    background-color: #fcc133;
+    padding-top: 80px;
+    line-height: 30px;
+    font-size: larger;
+    font-weight:bold;
+    text-align: justify;
+    padding-left: 40px;
+
+}
+.breakfast{
+    width: 100%;
+    border: 2px solid rgb(14, 12, 12);
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/8cc4cc79b3e85baf8723f998/pexelsphoto1639563.jpeg");
+    height: 850px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+.breakfastdiv{
+    padding-left: 90px;
+    padding-top: 70px;
+}
+.breakfast1{
+    width: 27%;
+    height:320px ;
+    border: 6px solid #fcc133;
+    color: white;
+    font-size: 25px;
+    padding-top:50px;
+    text-align: center;
+
+}
+.breakfast1 >p{
+    font-size: 20px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+.breakfast1 >h6{
+    padding-top:30px;
+}
+.breakfast2{
+    width: 27%;
+    height:320px;
+    background-color: #fcc133;
+    font-size: 25px;
+    padding-top:50px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+.breakfast2 >h6{
+    padding-top:15px; 
+
+}
+.breakfast2 >p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 850px) and (max-width: 1000px){
+.textpage{
+    padding-right: 160px;
+}
+.healthpage1{
+    font-size: 20px;
+    padding-left: 50px;
+}
+.starpage3{
+    width: 220px ;
+    height: 250px;
+    padding-right: 50px;
+    
+}
+.healthpage4{
+    width:70% ;
+    line-height:25px ;
+    font-size:16px ;
+    padding-right: 30px;
+    padding-top: 20px;
+    text-align: left;
+}
+.breakfast1{
+    width: 40%;
+
+}
+.breakfast2{
+    width: 40%; 
+}
+}
+
+@media screen and (min-width: 550px) and (max-width: 750px){
+    #mainpage{
+        width: 300%;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .firstpage{
+        width: 100%;
+        height: 290px;
+    }
+    .textpage{
+        width: 100%;
+        height: 350px;
+        padding-left: 200px;
+    }
+    .firstpage2{
+        width: 100%;
+        height: 450px;  
+    }
+    .healthpage{
+        width: 300%;
+        height: 1050px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .healthpage1{
+        font-size: 15px;
+        margin-top: 25px;
+        padding-left: 220px;
+      }
+      .healthpage2{
+        height: 50px;
+        width: 50%;
+      
+      }
+      .starpage3{
+        width: 20%;
+        border: 2px solid white;
+        height: 230px;
+        margin-left: 200px;
+        margin-top: -50px;
+       
+       
+
+      }
+      .healthpage3{
+        width: 30%;
+        height: 300px;
+        /* border: 2px solid white; */
+        margin-top: 100px;
+        margin-left: 40px;
+        
+
+      }
+      .healthpage4{
+        font-size: 18px;
+        height: 300px;
+        margin-top: 50px;
+        padding-top: 10px;
+
+      }
+.breakfast1{
+    width: 60%;
+}      
+.breakfast2{
+    width: 60%;
+}
+}
