@@ -13,9 +13,6 @@
         padding: 0;
         box-sizing: border-box;
       }
-      .d-none {
-        display: none;
-      }
       #parentDiv {
         width: 90%;
         margin: auto;
@@ -34,107 +31,138 @@
         justify-content: space-between;
       }
       #logo {
-        width: 15%;
-        /* border: 2px solid black; */
-        display: flex;
-        align-items: center;
+        width: 10%;
+        text-align: center;
+        
+        padding-top: 30px;
+        /* border: 2px solid rgb(209, 12, 12);  */
       }
       #logo > img {
         height: 45%;
-        width: 50%;
+        width: 75%;
+        
       }
       #navigations {
-        width: 25%;
-        /* border: 2px solid black; */
+        width: 35%;
+        /* border: 2px solid rgb(209, 12, 12);  */
         display: flex;
         justify-content: space-between;
        align-items: center;
-        font-size: 18px;
+        font-size: 15px;
        
       }
       #profile {
         width: 25%;
-        /* border: 2px solid #d60a0a; */
+        /* border: 2px solid black; */
         display: flex;
         justify-content: space-between;
         align-items: center;
       }
       .profile1{
-        width: 50%;
-        font-size: larger;
-        font-weight: 9px;
-        display: flex;
-        padding-left: 35px;
-        /* bord: 2pxppxx pxsolid blue; */
-      
+        font-size: 15px;
+        /* font-weight: bold; */
       }
-      .profile2{
-      width: 10%;
-      height: 35px;
-      padding-top: 5px;
-      
-    
-      font-size: 20px;
-      /* border: rgb(216, 97, 97);
-        border-radius: 50px; */
-      }
-      .profile3{
-        width: 30%;
-        height: 65px;
-       
-        font-size: 25px;
+     .profile2{
+        font-size: 16px;
+        border: 2px solid black;
+
+     }
+     .maniprofile3{
+        width: 30% ;
+         border:  2px solid  rgb(77, 75, 83);
+         height: 45px;
+         border-radius: 30px;
         display: flex;
         align-items: center;
-        padding-left: 20px;
-        
-      }
-      .maniprofile3{
-        width: 25% ;
-         border:  2px solid  rgb(77, 75, 83);
-         height: 63px;
-         border-radius: 35px;
+        justify-content: space-between;
+     }
+     .profile3{
         display: flex;
-      }
-      .maniprofile3 > div :nth-child(2){
+        justify-content: space-between;
+
+     }
+     .maniprofile3 > div :nth-child(1){
         
-        padding-left: 20px;
+        padding-left: 10px;
+        padding-top: 9px;
         /* border: 2px solid black;
         border-radius: 20; */
 
       }
-
-         
-
-      
-
-      .Secondnav{
-        width: 65%;
-        height: 100px;
-        border: 2px solid rgb(192, 192, 212);
-        border-radius: 40px;
-        margin:auto;
+      .maniprofile3 > div :nth-child(2){
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+        background-color: black;
+        color: wheat;
+        border-radius: 17px;
+        margin-left: 15px;
         display: flex;
-        justify-content: space-between ;
         align-items: center;
-        padding: 40px;
+        padding-left: 5px;
+
+      }
+      .Secondnav{
+        width: 75%;
+        height: 70px;
+        border: 2px solid rgb(119, 119, 122);
+        border-radius: 40px;
+        margin: auto;
+        display: flex;
       }
       .secondnav1{
-        /* border-left: 2px solid #dddddd; */
-        padding-left: 20px;
-      }
-       .secondnav2{
-        border-left: 2px solid #dddddd;
-        padding-left: 20px;
-      }
-       .secondnav3{
-        /* border-left: 2px solid #dddddd; */
-        padding-left: 20px;
-      }
-       .secondnav4{
-        /* border-left: 2px solid #dddddd; */
-        padding-left: 20px;
+        width: 20%;
+        /* border: 2px solid rgb(26, 16, 14); */
+        height: 50px;
+        margin-left: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 10px;
+        
+
       }
       #ssearch{
+        width: 200px;
+        height: 50px;
+        border: none;
+        outline: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        /* font-size: 20px; */
+        
+        
+      }
+      .Secondnav2{
+        width: 55%;
+        border-left: 2px solid #dad8db;
+        /* border: 2px solid rgb(204, 60, 31); */
+        height: 50px;
+        display: flex;
+      margin-left: 60px;     
+      padding-left: 30px;
+      margin-top: 10px;
+      }
+    
+       .Secondnav3{
+        border-left: 2px solid #dad8db;
+       margin-left: 20px;
+        padding-left: 30px;
+      }
+       .Secondnav4{
+        border-left: 2px solid #acafac;
+        margin-left: 20px;
+         padding-left: 30px;
+      }
+    .Secondnav2 > p {
+        font-size: 15px;
+    }
+    .Secondnav3 > p {
+        font-size: 15px;
+    }
+    .Secondnav4 > p{
+        font-size: 15px;
+    }
+    .ssearch{
         width: 200px;
         height: 50px;
         font-size: 20px;
@@ -144,15 +172,17 @@
       }
       .lastserch{
         width: 7%;
-        height:70px;
-        /* border: 2px solid red; */
-        border-radius:35px ;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      color: white;
-      background-color: #ff385c;
-      
+        /* border: 2px solid rgb(7, 6, 6); */
+        height: 60px;
+        border-radius: 30px;
+        text-align: center;
+        padding-top: 20px;
+        margin-left: 60px;
+        margin-top: 3px;
+        color: white;
+       background-color: #ff385c;
+       
+        
       }
       .Filters{
         /* border: 2px solid red; */
@@ -165,28 +195,29 @@
       }
       .place{
         /* border: 2px solid blue; */
-        width: 65%;
+        width: 70%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         text-align: center;
-        font-size: 15px;
+        font-size: 11px;
         
       }
       .place1{
-        height: 35px;
+        height: 30px;
       }
 
 
       .arow{
         border: 2px solid rgb(157, 157, 161);
-        width:3%;
-        height: 40px;
+        width:4%;
+        height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
         border-radius: 30px;
         padding-top: 3px;
+        margin-right: 20px;
 
       }
       .filter2{
@@ -197,7 +228,7 @@
         align-items: center;
         border-radius: 20px;
         justify-content: space-around;
-        font-size:17px ;
+        font-size:15px ;
 
 
       }
@@ -208,16 +239,15 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
-        font-size: 18px;
+        font-size: 15px;
         border-radius: 20px;
         
         
       }
       #displaytotal2{
-        font-size: 35px;
-
-     }
-     .Sites{
+        font-size: 30px;
+      }
+      .Sites{
       width: 100%;
       /* border: 2px solid red; */
 
@@ -257,7 +287,7 @@
         background-color: white;
         width: 46%;
         padding: 5px;
-        font-size: 14px;
+        font-size: 9px;
         border-radius: 20px;
         text-align: center;
         font-weight: 550px;
@@ -277,7 +307,7 @@
         display: flex;
         justify-content: space-between;
         font-weight: bold;
-        font-size: 17px;
+        font-size: 15px;
         margin-top: 10px;
 
       }
@@ -504,103 +534,29 @@
       background-size: cover;
      }
 
-
-
-    
-
-
-   
-/*       
-
-     @media screen and(min-width: 900px) and (max-width: 1100px) {
-        #navigations {
-          display: none;
-        }
-      }
-      @media screen and (max-width: 950px) {
-        #profile {
-          display: none;
-        }
-      }
-      @media screen and (max-width: 900px) {
-        .place{
-          display: none;
-        }
-      }
-      @media screen and (max-width: 950px) {
-        #logo {
-        height: 40px;
-
-        margin: auto;
-        }
-      }
-      @media screen and (max-width: 950px) {
-        #Filters {
-          display: none;
-        }
-      }
-      @media screen and (max-width: 900px) {
-        .displaytotal{
-          display: none;
-        }
-      }
-        @media screen and (max-width: 950px){
-          .Secondnav{
-            /* width: 65%; */
-            /* display:none;
-          }
-        }
-          */
-
-
-    
-
-
-      /* 750, 950   550, 900,1100 */
-      /* @media screen and (min-width : 900px) and (max-width : 1100px){
-        .productimg{
-          width: 32%;
-          
-          
-        }
-        
-      }
-      @media screen and (min-width : 550px) and (max-width : 900px){
-        .productimg{
-          width: 48%;
-          
-        }
-        
-      }
-      @media screen and (max-width : 550px) {
-        .productimg{
-          width: 90%;
-          margin: auto;
-
-     
-        }
-        
-      }
-       */
     </style>
   </head>
-  <body>
-    <div id="parentDiv">
-      <div id="navbar">
-        <div id="logo">
-          <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
-          alt="Logo"
-        />
+</style>
+</head>
+<body>
+  <div id="parentDiv">
+    <div id="navbar">
+        <div id="logo" > 
+            <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
+            alt="Logo"
+          />
+
         </div>
+
         <div id="navigations">
-          <h3>Stays</h3>
+            <h3>Stays</h3>
           <p> Experiences</p>
           <p> Online Experiences</p>
-          </div>
+        </div>
 
         <div id="profile">
-          <div class="profile1">Airbnb your home</div>
+            <div class="profile1">Airbnb your home</div>
           <div class="profile2">
             
             <i class="fa-solid fa-globe"></i>
@@ -612,87 +568,72 @@
          </div>
         </div>
           
-          </div>
-        
-<!--         
-        <div id="search">
-          <div style="border: 1px solid grey; padding: 10px; width: 100%; border-radius: 25px;">
-            <i></i>
-            <div>
-                <h5>Anywhere</h5>
-                <p>Any week</p>
-            </div>
-          </div>
-        </div> -->
-        <!-- <div id="filter">
-            <div>
-                <i></i>
-            </div>
-        </div> -->
-      </div>
+        </div>
+    </div>
 
-
-      <div class="Secondnav" >
-      
+    <div class="Secondnav">
         <div class="secondnav1">
-          <h4>Where</h4>
-          <input  id= "ssearch" placeholder="Search destination"/>
-        </div>
-        <div class="secondnav2">
-          <h5>Check in</h5>
-          <p>Add dates</p>
-        </div>
-        <div class="secondnav3">
-          <h5>Check out</h5>
-          <p>Add dates</p>
-        </div>
-        <div class="secondnav4">
-          <h5>Who</h5>
-          <p>Add guests</p>
-        </div>
+            <h4>Where</h4>
+          <input  class= "ssearch" placeholder="Search destination"/>
+            </div>
+            <div class="Secondnav2">
+                <div>
+                   <h5>Check in</h5>
+                   <p>Add dates</p>
+                </div>
+                <div class="Secondnav3">
+                    <h5>Check out</h5>
+                     <p>Add dates</p>
+                </div>
+                <div class="Secondnav4">
+                    <h5>Who</h5>
+                    <p>Add guests</p>
+                </div>
+            </div>
+            <div class="lastserch" >
+                <i class="fa-solid fa-magnifying-glass"></i></div>
+    </div>
 
-        <div class="lastserch">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
-      </div>
 
-      <div class="Filters">
-        <div class="place ">
-          <div>
-            <img   class="place1 " src="../IMAGE/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg" alt="image"/>
-            <p> Tiny homes</p>
-          </div>
 
-          <div >
-            <img class="place1 " src="../IMAGE/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="image"/>
-            <p>Beachfront</p>
-          </div>
-
-          <div  >
-            <img class="place1 " src="../IMAGE/d7445031-62c4-46d0-91c3-4f29f9790f7a.jpg" alt="image"/>
-            <p> Earth homes</p>
-          </div>
-
-          <div  >
-            <img class="place1 " src="../IMAGE/c0a24c04-ce1f-490c-833f-987613930eca.jpg" alt="image"/>
-            <p> National parks</p>
-          </div>
-
-          <div  >
-            <img class="place1 " src="../IMAGE/4221e293-4770-4ea8-a4fa-9972158d4004.jpg" alt="image"/>
-            <p>Caves</p>
-          </div>
-
-          <div >
-            <img class="place1 " src="../IMAGE/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg" alt="image"/>
-            <p> Domes</p>
-          </div>
-
-          <div  >
-            <img class="place1 " src="../IMAGE/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="image"/>
-            <p> Castles</p>
-          </div>
-
+    <div>
+        <div class="Filters">
+            <div class="place ">
+              <div>
+                <img   class="place1 " src="../IMAGE/3271df99-f071-4ecf-9128-eb2d2b1f50f0.jpg" alt="image"/>
+                <p> Tiny homes</p>
+              </div>
+    
+              <div >
+                <img class="place1 " src="../IMAGE/bcd1adc0-5cee-4d7a-85ec-f6730b0f8d0c.jpg" alt="image"/>
+                <p>Beachfront</p>
+              </div>
+    
+              <div  >
+                <img class="place1 " src="../IMAGE/d7445031-62c4-46d0-91c3-4f29f9790f7a.jpg" alt="image"/>
+                <p> Earth homes</p>
+              </div>
+    
+              <div  >
+                <img class="place1 " src="../IMAGE/c0a24c04-ce1f-490c-833f-987613930eca.jpg" alt="image"/>
+                <p> National parks</p>
+              </div>
+    
+              <div  >
+                <img class="place1 " src="../IMAGE/4221e293-4770-4ea8-a4fa-9972158d4004.jpg" alt="image"/>
+                <p>Caves</p>
+              </div>
+    
+              <div >
+                <img class="place1 " src="../IMAGE/89faf9ae-bbbc-4bc4-aecd-cc15bf36cbca.jpg" alt="image"/>
+                <p> Domes</p>
+              </div>
+    
+              <div  >
+                <img class="place1 " src="../IMAGE/1b6a8b70-a3b6-48b5-88e1-2243d9172c06.jpg" alt="image"/>
+                <p> Castles</p>
+              </div>
+              
           <div  >
             <img class="place1 " src="../IMAGE/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg" alt="image"/>
             <p> Lakefront </p>
@@ -709,21 +650,15 @@
           <i class="fa-solid fa-chevron-right"></i>
        
         </div>
+    </div>
 
-        <div class="filter2">
-          <div><i class="fa-solid fa-bars"></i></div>
-          <div> <p>Filters</p></div>
-        </div>
+    <div>
 
 
-        <div class="displaytotal">
-          <p>Display total before taxes</p>
-          <i  id="displaytotal2" class="fa-solid fa-toggle-off"></i>
+    </div>
 
-        </div>
-      </div>
-
-      <div class="Sites">
+    
+    <div class="Sites">
         <div class="backgroundimg">
         <div class="productimg">
           <div class="cardimg1">
@@ -1343,42 +1278,14 @@
           </div>
           
 
-
-
         </div>
-
-
-
-
-
-
-
-
-
-
-
 
 
       </div>
        
         
-    
-
-
-
-
-
 
       </div>
-
-
-
-
     </div>
-  </body>
-</html>
-
-
-
-
-
+    </body>
+    </html>
