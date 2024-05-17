@@ -1,0 +1,50 @@
+*
+{
+ padding: 0;
+     margin: 0;
+     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+   Helvetica Neue, sans-serif;
+   box-sizing: border-box;
+}
+#maindiv1{
+    width: 90%;
+    margin: auto;
+    border: 2px solid black;
+    height: 5000px;
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    width: 85%;
+    border: 2px solid black;
+    height: 70px;
+    font-size: 25px;
+    font-weight: 300px;
+    padding-top: 18px;
+    display: flex;
+}
+
+
+.textleft1{
+    width: 15%;
+    border: 2px solid black;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    justify-content: space-between;
+    
+}
+#textshare{
+ padding-right: 18px;  
+ text-decoration: underline; 
+}
+#imgfirst{
+    width: 100px;
+    border: 2px solid red;
+    height: 300px;
+}
+.img1{
+    background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-694055224756906854/original/76f85a0c-b3e2-4f1d-9aa9-d7838f2393c6.jpeg?im_w=720&im_q=highq);
+
+}
