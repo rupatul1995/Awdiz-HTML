@@ -331,4 +331,37 @@ background-size: cover;
     margin-left: 30px;
     font-size: 15px;
 }
-
+#welcometext{
+    width: 56%;
+    /* border: 2px solid red; */
+    height: 920px;
+    font-weight: 100;
+    border-bottom: 2px solid rgb(235, 231, 231);
+}
+ #welcometext p:nth-child(3){
+ padding-top: 25px;
+}
+ #welcometext p:nth-child(4){
+    padding-top: 25px;
+   }
+ #welcometext p:nth-child(5){
+    padding-top: 25px;
+   }
+   #welcometext p:nth-child(7){
+    padding-top: 25px;
+   }
+   #welcometext p:nth-child(8){
+    padding-top: 25px;
+   }
+   #welcometext p:nth-child(15){
+    padding-top: 25px;
+   }
+   #welcometext p:nth-child(17){
+    padding-top: 25px;
+   }
+   #welcometext p:nth-child(18){
+    padding-top: 25px;
+   }
+   #welcometext p:nth-child(19){
+    padding-top: 25px;
+   }
