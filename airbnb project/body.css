@@ -7,7 +7,7 @@
 #maindiv1{
     width: 90%;
     margin: auto;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 9000px;
     display: flex;
     flex-direction: column;
@@ -27,8 +27,6 @@
     padding-top: 18px;
     
 }
-
-
 .textleft1{
     width: 15%;
     /* border: 2px solid black; */
@@ -683,12 +681,12 @@ background-size: cover;
 
 }
 #explore{
-border: 1px solid red;
+/* border: 1px solid red; */
 width: 90%;
-height: 650px;
+height: 600px;
 }
 .exploretext{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 90%;
     height: 70px;
     font-size: 22px;
@@ -697,8 +695,8 @@ height: 650px;
 }
 #exploreoption{
     width: 100%;
-    height: 350px;
-    border: 1px solid red;
+    height: 300px;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -706,7 +704,7 @@ height: 650px;
 .exploreoption1{
     height: 250px;
     width: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    
 }
 .exploreoption1 p:nth-child(2){
@@ -724,7 +722,7 @@ height: 650px;
 .exploreoption2{
     height: 250px;
     width: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .exploreoption2 p:nth-child(2){
     padding-bottom: 25px;
@@ -742,7 +740,7 @@ height: 650px;
 .exploreoption3{
     height: 250px;
     width: 30%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .exploreoption3 p:nth-child(2){
     padding-bottom: 25px;
@@ -758,5 +756,56 @@ height: 650px;
 }
 #othertypes{
     width: 90%;
-    
+    font-size: 20px;
+}
+#othertypes1{
+    width: 100%;
+    height: 180px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.othertypes2{
+    width: 33%;
+    height: 180px;
+    /* border: 1px solid red; */
+}
+.othertypes3{
+    width: 33%;
+    height: 180px;
+    /* border: 1px solid red; */
+}
+.othertypes4{
+    width: 34%;
+    height: 180px;
+    /* border: 1px solid red; */
+}
+.othertypes2 p:nth-child(1){
+    /* font-weight: 550; */
+    padding-top: 40px;
+    font-size: 16px;
+
+}
+.othertypes2 p:nth-child(2){
+    /* font-weight: 550; */
+    padding-top: 40px;
+    font-size: 16px;
+}
+.othertypes3 p:nth-child(1){
+    /* font-weight: 550; */
+    padding-top: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+
+}
+.othertypes3 p:nth-child(2){
+    /* font-weight: 550; */
+    padding-top: 40px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.othertypes4 p:nth-child(1){
+    /* font-weight: 550; */
+    padding-top: 40px;
+    font-size: 16px;
+
 }
