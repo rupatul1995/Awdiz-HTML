@@ -1,0 +1,204 @@
+#signup{
+    width: 40%;
+    height: 650px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-left: 450px;
+}
+
+.registration{
+    width: 100%;
+    height: 54%;
+    border-bottom: 1px solid rgb(200,200,200);
+    /* border-radius: 12px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration1{
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid rgb(200,200,200);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.registration1 p:nth-child(1){
+    font-size: 19px;
+    font-weight: 550;  
+}
+.registration p:nth-child(2){
+    font-size: 22px;
+    font-weight: 550;  
+    padding-right: 350px;
+}
+
+#inputfirst{
+    width: 90%;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#registration > p:nth-child(2){
+    font-size: 29px;
+    font-weight: 550;
+}
+
+.endtext{
+    font-size: 14px;
+    width: 90%;
+}
+
+#email{
+    border: 1px solid rgb(200,200,200);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px 12px 0px 0px;
+}
+
+#email input{
+    border: none;
+    outline: none;
+}
+
+#typeemail{
+    width: 100%;
+    height: 47px;
+    outline: none;
+    border-radius: 12px 12px 0px 0px;
+}
+
+#password{
+    border: 1px solid rgb(200,200,200);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 12px 12px;
+}
+
+#typepass{
+    width: 100%;
+    height: 47px;
+    outline: none;
+    border-radius: 0px 0px 12px 12px;
+}
+
+#password input{
+    border: none;
+}
+
+.submitbutton{
+    width: 90%;
+    height: 50px;
+    background-color: rgb(218,11,100);
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    /* border: 1px solid black; */
+    height: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#facebook{
+    border: 1px solid black;
+    width: 90%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: 550;
+}
+
+#facebook i{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(24,119,242);
+}
+
+#facebook span{
+    padding-left: 140px;
+}
+
+#google{
+    border: 1px solid black;
+    width: 90%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: 550;
+}
+
+#google i{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(255, 187, 0);
+}
+
+#google span{
+    padding-left: 140px;
+}
+
+#apple{
+    border: 1px solid black;
+    width: 90%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: 550;
+}
+
+#apple i{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+#apple span{
+    padding-left: 140px;
+}
+
+#email1{
+    border: 1px solid black;
+    width: 90%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    font-weight: 550;
+}
+
+#email1 i{
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+#email1 span{
+    padding-left: 140px;
+}
