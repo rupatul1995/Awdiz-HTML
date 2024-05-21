@@ -184,7 +184,7 @@ background-size: cover;
 }
 #icontextdiv{
     width: 100%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 350px;
 }
 .icontextdiv1{
@@ -329,7 +329,7 @@ background-size: cover;
 }
 #welcometext{
     width: 56%;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     height: 970px;
     font-weight: 100;
     border-bottom: 2px solid rgb(235, 231, 231);
@@ -480,7 +480,7 @@ background-size: cover;
 #mapdiv{
     width: 95%;
     height: 680px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .mapdiv1{
     width: 100%;
@@ -498,6 +498,7 @@ background-size: cover;
     width: 1140px;
     height: 470px;
     padding-top:30px;
+
 }
 .maptext{
     width: 1100px;
@@ -550,7 +551,7 @@ background-size: cover;
 #requestbox{
     width: 90%;
     height: 250px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     border-top: 1px solid rgb(200,200,200);
     /* margin-top: 40px; */
     display: flex;
@@ -809,3 +810,353 @@ height: 600px;
     font-size: 16px;
 
 }
+
+
+
+
+@media screen and (min-width: 750px) and (max-width: 1000px){
+#maindiv1{
+    width: 90%;
+}
+.maintext1{
+    width: 90%;
+    height: 60px;
+}
+/* #imgfirst{
+    height: 300px;
+    border: 2px soli rgb(214, 3, 3);
+} */
+
+.img1{
+    width: 40%;
+    /* border: 2px soli rgb(214, 3, 3); */
+    height: 380;
+    background-size: cover;
+}
+.boximg{
+   width: 60%;
+   height: 380px;
+   /* border: 2px solid yellow; */
+}
+.boximg1{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+.boximg2{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+.boximg3{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+.boximg4{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+#imgfirst{
+    width: 90%;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#div2sold{
+    width: 90%;
+}
+.solddiv1{
+    width: 100%;
+    /* padding-left: 10px; */
+}
+
+.solddiv{
+    width:30%;
+    height: 185px;
+    /* border: 2px solid black; */
+    display: none;
+    
+}
+.solddiv2{
+    width: 100%;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.requestdiv{
+    width: 100%;
+    padding-left: 40px;
+}
+.host1{
+    width: 10%;
+}
+#icontextdiv{
+    height: 300px;
+}
+#welcometext{
+    width: 85%;
+    height: 900px;
+}
+#meahost{
+    width: 69%;
+}
+.mainmap > iframe {
+    width: 65%;
+    height: 500px;
+
+}
+
+#highlightsdiv{
+    width: 80%;
+}
+#requestbox{
+    width: 92%;
+    height: 300px;
+
+
+
+}
+}
+@media screen and (min-width: 550px) and (max-width: 750px){
+    #maindiv1{
+    width: 90%;
+}
+.maintext1{
+    width: 90%;
+    height: 60px;
+}
+#imgfirst{
+    height: 250px;
+    border: 2px soli rgb(214, 3, 3);
+}
+
+.img1{
+    width: 40%;
+    /* border: 2px soli rgb(214, 3, 3); */
+    height: 380;
+    background-size: cover;
+}
+.boximg{
+   width: 60%;
+   height: 380px;
+   /* border: 2px solid yellow; */
+}
+.boximg1{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+.boximg2{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+.boximg3{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+.boximg4{
+    width:50%;
+    height: 185px;
+    background-size: cover;
+
+}
+#imgfirst{
+    width: 90%;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#div2sold{
+    width: 90%;
+}
+.solddiv1{
+    width: 100%;
+    /* padding-left: 10px; */
+}
+
+.solddiv{
+    width:30%;
+    height: 185px;
+    /* border: 2px solid black; */
+    display: none;
+    
+}
+.solddiv2{
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+.requestdiv{
+    width: 100%;
+    padding-left: 40px;
+}
+.host1{
+    width: 15%;
+}
+#icontextdiv{
+    
+    height: 350px;
+}
+
+#welcometext{
+    width: 85%;
+    height: 1100px;
+}
+#meahost{
+    width: 69%;
+}
+.mainmap > iframe {
+    width: 50%;
+    height: 500px;
+
+}
+
+#highlightsdiv{
+    width: 80%;
+}
+#requestbox{
+    width: 100%;
+    height: 300px;
+    font-size: 15px;
+}
+#boxicon{
+    display: none;
+}
+}
+
+
+
+    @media screen and (max-width : 550px) {
+        #maindiv1{
+            width: 100%;
+            margin: auto;
+        }
+        .maintext1{
+            width: 100%;
+            height: 50px;
+        }
+    
+        .img1{
+            width: 100%;
+            /* border: 2px soli rgb(214, 3, 3); */
+            height: 300;
+            background-size: cover;
+        }
+        .boximg{
+           display: none;
+        }
+        
+        #imgfirst{
+            width: 90%;
+            margin-left: 20px;
+            /* border: 2px solid red; */
+            border-radius: 20px;
+            height: 300px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        #div2sold{
+            width: 100%;
+            height: 250px;
+            font-size: 15px;
+            /* margin-left: 20px; */
+        }
+        .hostdiv{
+            width: 100%;
+        }
+        .solddiv1{
+            width: 100%;
+            /* padding-left: 10px; */
+        }
+        
+        .solddiv{
+            width:30%;
+            height: 185px;
+            /* border: 2px solid black; */
+            display: none;
+            
+        }
+        .solddiv2{
+            width: 100%;
+            height: 60px;
+            border: 2px solid black;
+            font-size: 20px;
+            margin-top: 20px;
+            
+        }
+        .requestdiv{
+            width: 100%;
+            padding-left: 40px;
+        }
+        .host1{
+            width: 15%;
+            height: 60px;
+        }
+        #icontextdiv{
+            width: 100%;
+            height: 350px;
+        }
+        .icontextdiv1{
+            width: 100%;
+        }
+        
+        #welcometext{
+            width: 85%;
+            height: 1200px;
+        }
+        #meahost{
+            width: 90%;
+        }
+        #mapdiv{
+            width: 95%;
+            height: 400px;
+        }
+        .mainmap > iframe {
+            width: 40%;
+            height: 200px;
+        
+        }
+        
+        #highlightsdiv{
+            width: 80%;
+            height: 300px;
+        }
+        #requestbox{
+            width: 100%;
+            height: 300px;
+            font-size: 15px;
+        }
+        #boxicon{
+            display: none;
+        }
+        #thingstoknow{
+            width: 100%;
+        }
+        .safety >p {
+            font-size: 15px;
+        }
+        }
+        

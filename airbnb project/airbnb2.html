@@ -28,27 +28,30 @@
         left: 0;
         background-color: white;
         display: flex;
-        justify-content: space-between;
+        /* justify-content: space-between; */
       }
       #logo {
-        width: 10%;
+        width: 28%;
         text-align: center;
-        
+        margin-right: 80px;    
+        padding-right: 140px;
         padding-top: 30px;
         /* border: 2px solid rgb(209, 12, 12);  */
       }
       #logo > img {
-        height: 45%;
-        width: 75%;
+        height: 78%;
+        width: 68%;
+        padding-right: 50px;
         
       }
       #navigations {
-        width: 35%;
+        width: 40%;
         /* border: 2px solid rgb(209, 12, 12);  */
         display: flex;
         justify-content: space-between;
        align-items: center;
         font-size: 15px;
+        margin-right: 60px;
        
       }
       #profile {
@@ -64,7 +67,7 @@
       }
      .profile2{
         font-size: 16px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
 
      }
      .maniprofile3{
@@ -552,9 +555,9 @@
     }
   }
   @media screen and (max-width: 950px) {
-    #logo {
+    #logo >i {
     height: 40px;
-
+    width: 30px;
     margin: auto;
     }
   }
@@ -755,7 +758,8 @@
     <div class="Sites">
         <div class="backgroundimg">
         <div class="productimg">
-          <div class="cardimg1">
+          <div class="cardimg1" onclick="location.href"='http://127.0.0.1:5500/airbnb%20project/body.html'>
+            
             <div id="guesticon">
               <p>Guest Favourite</p>
               <i class="fa-regular fa-heart"></i>
