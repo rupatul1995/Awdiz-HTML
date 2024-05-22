@@ -178,27 +178,45 @@ border-radius: 20px;
 }
 .solddiv2{
     width: 100%;
-    border: 2px solid rgb(136, 133, 133);
+    border: 2px solid rgb(221, 217, 217);
     font-size: 25px;
     font-weight: lighter;
-    height: 40px;    
+    height: 70px;    
     display: flex;
     /* padding-top: 10px; */
-    border-radius: 20px;
+    border-radius: 10px;
 }
-.solddiv2 p:nth-child(1){
+.checkin >p{
+height: 50px;
+    /* border: 2px solid red; */
+    font-size: 10px;
+    /* padding-left: 20px; */
+    border-right: 1px solid rgb(182, 173, 173);
+}
+.checkout{
+    height: 50px;
+    /* border: 2px solid red; */
+    font-size: 8px;
+}
+.totalprice{
+    width: 100%;
+    height: 40px;
+    /* border: 2px solid black; */
+    margin-top: 30px;
+    display: flex;
+    padding-left: 10px;
+}
+.totalprice1{
+    width: 50%;
+    /* border: 2px solid black; */
+    /* padding-left: 150px; */
+}
+.totalprice2{
+    width: 25%;
+    /* border: 2px solid black; */
+    margin-left: 75px;
+}
 
-    /* border: 2px solid red; */
-    font-size: 12px;
-    padding-left: 40px;
-}
-.solddiv2 p:nth-child(2){
-    /* width: 50%;
-    height: 40px; */
-    /* border: 2px solid red; */
-    font-size: 12px;
-    padding-left: 30px;
-}
 .requestdiv{
     width: 90%;
     margin: auto;
@@ -208,7 +226,7 @@ border-radius: 20px;
     color: white;
     padding-left: 40px;
     padding-top: 8px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 #icontextdiv{
     width: 100%;
