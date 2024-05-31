@@ -1,0 +1,36 @@
+*{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+      Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.logo {
+    width: 10%;
+    text-align: center;
+    margin-right: 80px;    
+    /* padding-right: 140px; */
+    padding-top: 20px;
+    /* border: 2px solid rgb(209, 12, 12);  */
+  }
+  .logo > img {
+    height: 68%;
+    width: 68%;
+  }
+  .navigationdiv {
+    width: 100%;
+    border: 2px solid rgb(241, 238, 238);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  .personaldetails{
+    width: 80%;
+    height: 100px;
+    border: 2px solid rgb(209, 12, 12);
+  }
