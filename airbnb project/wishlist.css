@@ -1,0 +1,633 @@
+*{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+      Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+.logo {
+    width: 9%;
+    text-align: center;
+    margin-right: 80px;    
+    /* padding-right: 140px; */
+    padding-top: 20px;
+    /* border: 2px solid rgb(209, 12, 12);  */
+  }
+  .logo > img {
+    height: 68%;
+    width: 68%;
+  }
+  .navigationdiv {
+    width: 100%;
+    border: 2px solid rgb(241, 238, 238);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+  #profile {
+    width: 29%;
+    margin-left: 800px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .profile1{
+    font-size: 17px;
+    /* font-weight: bold; */
+  }
+ .profile2{
+    margin-right: 30px;
+    font-size: 16px;
+    /* border: 2px solid black; */
+
+ }
+ .maniprofile3{
+    width: 27% ;
+     border:  2px solid  rgb(170, 168, 173);
+     height: 50px;
+     border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px
+ }
+ .profile3{
+    display: flex;
+    justify-content: space-between;
+
+ }
+ .maniprofile3 > div :nth-child(1){
+        
+    padding-left: 10px;
+    padding-top: 9px;
+    /* border: 2px solid black; */
+    border-radius: 20; 
+
+  }
+  .maniprofile3 > div :nth-child(2){
+    width: 40px;
+    height: 38px;
+    /* border: 2px solid black; */
+    background-color: black;
+    color: wheat;
+    border-radius: 20px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+  }
+  .mainpagediv{
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 1500px;
+    display: flex;
+   
+  }
+  .mainpagediv1{
+    /* border: 2px solid black; */
+    width: 59%;
+    height: 1500px;
+    margin-left: 20px;
+    
+  }
+  .mainpagediv2{
+    /* border: 2px solid rgb(199, 12, 12); */
+    width: 40%;
+    height: 1500px;
+    margin-left: 10px;
+    /* position: sticky; */
+  }
+  .arow{
+    width:6%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3px;
+    margin-right: 20px;
+
+  }
+  .Caves{
+    width: 25%;
+    height: 50px;
+    /* border: 2px solid red; */
+    
+  }
+  .Caves > p  {
+    font-size: 30px;
+  }
+  .adddates{
+    width: 60%;
+    height: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+  }
+  .adddates p:nth-child(1){
+    border: 2px solid rgb(209, 200, 200);
+    width: 23%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .adddates p:nth-child(2){
+    border: 2px solid rgb(209, 200, 200);
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+  .adddates p:nth-child(3){
+    border: 2px solid rgb(209, 200, 200);
+    width: 23%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 10px; 
+ 
+  }
+  .cardimg2{
+    width: 100%;
+    /* border: 2px solid purple; */
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-49464278/original/3494e74d-0ca6-476f-a626-0ef6aef39f23.jpeg?im_w=720);
+    background-size: cover;
+   }
+   .productimg{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 22%;
+    margin-bottom: 20px;
+   }
+   #guesticon{
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   }
+    #guesticon > p:nth-child(1){
+      background-color: white;
+      width: 46%;
+      padding: 5px;
+      font-size: 9px;
+      border-radius: 20px;
+      text-align: center;
+      font-weight: 550px;
+
+
+    }
+
+    #guesticon > i {
+    color: white;
+     font-size: 24px;
+    }
+    .Sites{
+        width: 100%;
+        /* border: 2px solid red; */
+  
+       }
+  
+       .backgroundimg{
+        /* border: 2px solid blue; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+        
+       }
+       .productimg{
+        /* border: 2px solid black; */
+        height: 400px;
+        width: 32%;
+        margin-bottom: 20px;
+  
+       }
+       .cardimg1{
+        width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-694055224756906854/original/76f85a0c-b3e2-4f1d-9aa9-d7838f2393c6.jpeg?im_w=720&im_q=highq);
+        background-size: cover;
+       }
+       #guesticon{
+        padding-top: 10px;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+       }
+        #guesticon > p:nth-child(1){
+          background-color: white;
+          width: 46%;
+          padding: 5px;
+          font-size: 9px;
+          border-radius: 20px;
+          text-align: center;
+          font-weight: 550px;
+  
+  
+        }
+  
+        #guesticon > i {
+        color: white;
+         font-size: 24px;
+        }
+        .cardtext{
+          /* border: 2px solid greenyellow; */
+  
+        }
+        .cardtext1{
+          display: flex;
+          justify-content: space-between;
+          font-weight: bold;
+          font-size: 15px;
+          margin-top: 10px;
+  
+        }
+        
+        .cardtext >p:nth-child(4) {
+          /* border: 2px solid red; */
+         
+          margin-top: 10px;
+  
+        }
+        .cardimg2{
+            width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-49464278/original/3494e74d-0ca6-476f-a626-0ef6aef39f23.jpeg?im_w=720);
+        background-size: cover;
+       }
+       
+       .cardimg3{
+        width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-738752223904069643/original/be0748b5-e2d7-4b1e-8f43-bfce3f61d615.jpeg?im_w=720);
+        background-size: cover;
+       }
+  
+       .cardimg4{
+        width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/89f465e3-f918-4192-a066-7d0f989a349c.jpg?im_w=720);
+        background-size: cover;
+       }
+  
+       .cardimg5{
+        width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52466292/original/d8a362e6-628e-48f2-a879-8b55ccad649d.jpeg?im_w=720);
+        background-size: cover;
+       }
+  
+       .cardimg6{
+        width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/3be6d12f-ce3c-4790-bada-f76fc0f53609.jpg?im_w=720);
+        background-size: cover;
+       }
+       .cardimg7{
+        width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-26252349/original/7cf9657f-f6ce-4f0d-a70d-a37e659b62f6.jpeg?im_w=720);
+        background-size: cover;
+       }
+  
+       .cardimg8{
+        width: 100%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52466292/original/8a343855-cbb8-4c46-811e-209e2ba9a0f9.jpeg?im_w=720);
+        background-size: cover;
+        
+       }
+       .mainmap{
+        width: 100%;
+        height: 1000px;
+    
+       }
+
+
+
+
+       @media screen and (min-width: 750px) and (max-width: 950px){
+        .navigationdiv{
+            width: 150%;
+           border: 2px solid rgb(241, 238, 238);
+          height: 80px;
+  
+    background-color: white;
+    display: flex;
+        }
+        .logo {
+            width: 10%;
+            text-align: center;
+            padding-left: 10px;    
+            /* padding-right: 140px; */
+            padding-top: 20px;
+            /* border: 2px solid rgb(209, 12, 12);  */
+          }
+          .logo > img {
+            height: 68%;
+            width: 100%;
+          }
+          .profile{
+
+          }
+#profile {
+    width: 29%;
+    margin-left: 260px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .profile1{
+    font-size: 17px;
+    /* font-weight: bold; */
+  }
+ .profile2{
+    margin-right: 10px;
+    font-size: 16px;
+    /* border: 2px solid black; */
+
+ }
+ .Caves{
+    width: 45%;
+    height: 50px;
+    /* border: 2px solid red; */
+    
+  }
+ 
+  .adddates{
+    width: 80%;
+    height: 80px;
+    /* border: 2px solid red; */
+    display: flex;
+  }
+  .backgroundimg{
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    
+   }
+   .productimg{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 36%;
+    margin-bottom: 20px;
+
+   }
+   .cardimg1{
+    width: 150%;
+    /* border: 2px solid purple; */
+    height: 300px;
+    border-radius: 20px;
+    background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-694055224756906854/original/76f85a0c-b3e2-4f1d-9aa9-d7838f2393c6.jpeg?im_w=720&im_q=highq);
+    background-size: cover;
+   }
+   .cardimg2{
+    width: 150%;
+/* border: 2px solid purple; */
+height: 300px;
+border-radius: 20px;
+background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-49464278/original/3494e74d-0ca6-476f-a626-0ef6aef39f23.jpeg?im_w=720);
+background-size: cover;
+}
+
+.cardimg3{
+width: 150%;
+/* border: 2px solid purple; */
+height: 300px;
+border-radius: 20px;
+background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-738752223904069643/original/be0748b5-e2d7-4b1e-8f43-bfce3f61d615.jpeg?im_w=720);
+background-size: cover;
+}
+
+.cardimg4{
+width: 150%;
+/* border: 2px solid purple; */
+height: 300px;
+border-radius: 20px;
+background-image: url(https://a0.muscache.com/im/pictures/89f465e3-f918-4192-a066-7d0f989a349c.jpg?im_w=720);
+background-size: cover;
+}
+
+.cardimg5{
+width: 150%;
+/* border: 2px solid purple; */
+height: 300px;
+border-radius: 20px;
+background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52466292/original/d8a362e6-628e-48f2-a879-8b55ccad649d.jpeg?im_w=720);
+background-size: cover;
+}
+
+.cardimg6{
+width: 150%;
+/* border: 2px solid purple; */
+height: 300px;
+border-radius: 20px;
+background-image: url(https://a0.muscache.com/im/pictures/3be6d12f-ce3c-4790-bada-f76fc0f53609.jpg?im_w=720);
+background-size: cover;
+}
+.cardimg7{
+width: 150%;
+/* border: 2px solid purple; */
+height: 300px;
+border-radius: 20px;
+background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-26252349/original/7cf9657f-f6ce-4f0d-a70d-a37e659b62f6.jpeg?im_w=720);
+background-size: cover;
+}
+
+.cardimg8{
+width: 145%;
+/* border: 2px solid purple; */
+height: 300px;
+border-radius: 20px;
+background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52466292/original/8a343855-cbb8-4c46-811e-209e2ba9a0f9.jpeg?im_w=720);
+background-size: cover;
+
+}
+.mainmap{
+width: 120%;
+height: 1000px;
+border: 2px solid black ;
+
+}
+.Sites{
+    width: 85%;
+    /* border: 2px solid red; */
+
+   }
+
+
+       }
+
+
+
+       @media screen and (max-width : 550px) {
+        .navigationdiv{
+            width: 550%;
+           border: 2px solid rgb(241, 238, 238);
+          height: 80px;
+  
+    background-color: white;
+    display: flex;
+        }
+        .logo {
+            width: 5%;
+            text-align: center;
+            padding-left: 10px;    
+            /* padding-right: 140px; */
+            padding-top: 20px;
+            /* border: 2px solid rgb(209, 12, 12);  */
+          }
+          .mainmap{
+            display: none;
+          }
+         .Caves{
+            width: 65%;
+            height: 50px;
+            /* border: 2px solid red; */
+            
+          }
+          .Caves > p  {
+            font-size: 25px;
+          }
+          .adddates{
+            width: 160%;
+            height: 80px;
+            /* border: 2px solid red; */
+            display: flex;
+          }
+          .backgroundimg{
+            /* border: 2px solid blue; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            
+           }
+           .productimg{
+            /* border: 2px solid black; */
+            height: 400px;
+            width: 170%;
+            margin-bottom: 20px;
+        
+           }
+           .cardimg1{
+            width: 150%;
+            /* border: 2px solid purple; */
+            height: 300px;
+            border-radius: 20px;
+            background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-694055224756906854/original/76f85a0c-b3e2-4f1d-9aa9-d7838f2393c6.jpeg?im_w=720&im_q=highq);
+            background-size: cover;
+           }
+           .cardimg2{
+            width: 150%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-49464278/original/3494e74d-0ca6-476f-a626-0ef6aef39f23.jpeg?im_w=720);
+        background-size: cover;
+        }
+        
+        .cardimg3{
+        width: 150%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-738752223904069643/original/be0748b5-e2d7-4b1e-8f43-bfce3f61d615.jpeg?im_w=720);
+        background-size: cover;
+        }
+        
+        .cardimg4{
+        width: 150%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/89f465e3-f918-4192-a066-7d0f989a349c.jpg?im_w=720);
+        background-size: cover;
+        }
+        
+        .cardimg5{
+        width: 150%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52466292/original/d8a362e6-628e-48f2-a879-8b55ccad649d.jpeg?im_w=720);
+        background-size: cover;
+        }
+        
+        .cardimg6{
+        width: 150%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/3be6d12f-ce3c-4790-bada-f76fc0f53609.jpg?im_w=720);
+        background-size: cover;
+        }
+        .cardimg7{
+        width: 150%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-26252349/original/7cf9657f-f6ce-4f0d-a70d-a37e659b62f6.jpeg?im_w=720);
+        background-size: cover;
+        }
+        
+        .cardimg8{
+        width: 145%;
+        /* border: 2px solid purple; */
+        height: 300px;
+        border-radius: 20px;
+        background-image: url(https://a0.muscache.com/im/pictures/miso/Hosting-52466292/original/8a343855-cbb8-4c46-811e-209e2ba9a0f9.jpeg?im_w=720);
+        background-size: cover;
+        
+        }
+        .mainmap{
+        width: 120%;
+        height: 1000px;
+        border: 2px solid black ;
+        
+        }
+        .Sites{
+            width: 85%;
+            /* border: 2px solid red; */
+        
+           }
+        
+       }
+
+
+
+       
+      
