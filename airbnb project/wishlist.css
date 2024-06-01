@@ -340,9 +340,8 @@
             width: 150%;
            border: 2px solid rgb(241, 238, 238);
           height: 80px;
-  
-    background-color: white;
-    display: flex;
+          background-color: white;
+           display: flex;
         }
         .logo {
             width: 10%;
